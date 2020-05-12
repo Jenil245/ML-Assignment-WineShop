@@ -1,4 +1,4 @@
-# ML-Assignment-Winery
+# ML-Assignment-WineShop
 
 # About DATA
 The dataset which is provided represents WineShop online purchase history.
