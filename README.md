@@ -3,7 +3,10 @@
 # About DATA
 The dataset which is provided represents WineShop online purchase history.
 
-Dataset contains 82657 entries and 12 columns. Two columns contains numerical values. Two columns contains text data. Rest 8 columns are categorical. We have to predict variety of grapes that has been used in making wine.
+Dataset contains 82657 entries and 12 columns. Two columns contains numerical values. Two columns contains text data. Rest 8 columns are categorical.
+
+Problem Statement:
+We have to predict variety of grapes that has been used in making wine.
 
 <b>Target variable has 17 different categories.</b>
 
@@ -26,3 +29,9 @@ And I got <b>63.5% accuracy</b> which is really great because target variable ha
 These is a very powerful model which follows ensemble boosting approach and highly optimized for categorical data. We can pass categorical data directly without doing any encoding. Model takes care of that based on data. It uses mean encoding to transform categorical data into numerical data.
 
 I got <b>66.7% accuracy</b>. Model took about one hour to train.
+
+# Future Work
+
+We can train catboost model with more epochs and we can use early stopping to avoid overfitting of data.
+
+We can also train deep learning model with our encoded data. It will yield good result since we will be able to gain full potential of review description(text-data) column.
